@@ -21,3 +21,13 @@ class ReviewsAllocineItem(scrapy.Item):
     desc = scrapy.Field()
     release = scrapy.Field()
     pass
+
+class ReviewsBoursoramaItem(scrapy.Item):
+    indice = scrapy.Field()
+    cours = scrapy.Field()
+    var = scrapy.Field()
+    high = scrapy.Field()
+    low = scrapy.Field()
+    open = scrapy.Field()
+    time = scrapy.Field()
+    pass

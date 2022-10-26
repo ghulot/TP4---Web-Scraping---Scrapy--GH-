@@ -6,7 +6,7 @@ from WebCrawler.items import ReviewsAllocineItem
 class AllocineSpider(scrapy.Spider):
     name = 'allocine'
     allowed_domains = ['www.allocine.fr']
-    n = input("Entrez le nombre de page que vous souhaitez avec un max de 10 : ")
+    #n = input("Entrez le nombre de page que vous souhaitez afficher (max 10) : ")
     #Liste des pages à collecter
     start_urls = [f'https://www.allocine.fr/film/meilleurs/?page={n}' for n in range(1,10)] #/?page={n}' for n in range(1,10)
 
